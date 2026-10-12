@@ -1,0 +1,9 @@
+.art-core{height:220px;width:185px;border-radius:48% 48% 42% 42%;background:var(--forest);border:5px solid rgba(246,244,238,.8)}
+.art-core:before{display:none}
+.art-core:after{inset:-13px;border:1px solid rgba(49,80,65,.24);border-radius:48% 48% 42% 42%;pointer-events:none}
+.art-core img{display:block;width:100%;height:100%;object-fit:cover;object-position:center 33%;border-radius:inherit}
+.portrait-badge{position:absolute;right:-15px;bottom:8px;z-index:1;width:42px;height:42px;border-radius:50%;display:grid;place-items:center;background:var(--forest);border:2px solid #e8e9de;color:var(--lime);font:11px var(--mono)}
+.contact-link,.contact-email{font-size:10px;color:#c6d0c5;text-decoration:none}
+.contact-link:hover,.contact-email:hover{text-decoration:underline}
+.contact-email{font-family:var(--mono);font-size:9px}
+@media(max-width:620px){.art-core{height:190px;width:160px}.contact-actions{align-items:flex-start}}
